@@ -238,4 +238,4 @@ function removeRow(rowId) {
 }
 ```
 
-[Artículo original en inglés](https://www.itexico.com/blog/mobile-app-tutorial-backbone-models-database-with-titanium-alloy)
+[Ver artículo en codigomovil.mx](https://codigomovil.mx/blog/base-de-datos-de-modelos-backbone-con-titanium-alloy)
