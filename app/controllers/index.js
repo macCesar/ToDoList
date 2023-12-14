@@ -10,7 +10,6 @@ function doInsert() {
 
   // si hay algo en el cuadro de texto
   if ($.inputField.value.trim() !== '') {
-
     // Así es como creamos una instancia de un modelo y lo guardamos en la base de datos.
     // Si el modelo ya existe, la operación será una "actualización".
     Alloy.createModel('toDoList', {
