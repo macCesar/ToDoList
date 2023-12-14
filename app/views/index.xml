@@ -1,0 +1,31 @@
+<Alloy>
+  <!-- Instancia del modelo -->
+  <Collection src="toDoList" />
+
+  <NavigationWindow>
+    <Window title="ToDo App">
+      <View id="insertView">
+        <TextField id="inputField" onReturn="doInsert" />
+        <Button id="insertButton" title="Insertar" onClick="doInsert" />
+      </View>
+
+      <!-- Especifica el singleton o instancia de la colección para vincular a la tabla. -->
+      <TableView id="tbToDoList" dataCollection="toDoList" onSingletap="checkUncheckRow" onLongpress="confirmDialog">
+        <!-- rowId="{id}" es una propiedad personalizada para tener una referencia a la clave principal de los registros -->
+        <TableViewRow id="listRow" rowId="{id}" hasCheck="{hasCheck}">
+          <View id="componentView">
+            <!-- text="{value}" es el valor del registro de la base de datos -->
+            <Label id="lblValue" text="{value}" />
+          </View>
+        </TableViewRow>
+      </TableView>
+
+      <AlertDialog id="alertDialog" cancel="1" message="Eliminar" onClick="confirmRemoveRow">
+        <ButtonNames>
+          <ButtonName>Sí</ButtonName>
+          <ButtonName>No</ButtonName>
+        </ButtonNames>
+      </AlertDialog>
+    </Window>
+  </NavigationWindow>
+</Alloy>

@@ -1,0 +1,55 @@
+'Window': {
+  layout: 'vertical',
+  extendSafeArea: false,
+  backgroundColor: '#ffffff',
+}
+
+'TextField': {
+  height: 40,
+  width: '75%',
+  borderWidth: 1,
+  borderRadius: 6,
+  clearOnEdit: true,
+  autocorrect: false,
+  borderColor: 'gray',
+  backgroundColor:  '#f2f2f2',
+  padding: { left: 10, right: 10 },
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+'Button': {
+  height: 40,
+  width: '25%',
+}
+
+'TableView': {
+  top: 10,
+  widht: Ti.UI.FILL,
+  height: Ti.UI.FILL
+}
+
+'TableViewRow': {
+  height: 40,
+  hasCheck: false,
+  width: Ti.UI.FILL
+}
+
+'Label': {
+  left: 0,
+  color: 'black',
+  font: { fontSize: 14, fontFamily: 'HelveticaNeue' }
+}
+
+'#insertView': {
+  top: 10,
+  left: 10,
+  right: 10,
+  height: Ti.UI.SIZE,
+  layout: 'horizontal'
+}
+
+'#componentView': {
+  left: 10,
+  width: '90%',
+  height: Ti.UI.FILL
+}
