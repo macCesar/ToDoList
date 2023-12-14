@@ -3,7 +3,7 @@
 *Este es un ejemplo rápido de desarrollo de aplicaciones móviles sobre cómo integrar modelos backbone con Titanium en Alloy.*
 
 <p align="center">
-  <img src="./app/assets/imagen.jpg" alt="Portada">
+  <img src="./app/assets/imagen2.jpg" alt="Portada">
 </p>
 
 Desde el lanzamiento del complemento Alloy, el desarrollo en Titanium ha sido extremadamente simple y rápido. En este tutorial, te mostraré cómo implementar una base de datos local con modelos backbone en 5 sencillos pasos.
